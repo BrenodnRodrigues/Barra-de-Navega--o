@@ -1,0 +1,71 @@
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: white;
+    border: solid red 5px;
+    background-color: brown;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    background-color: gray;
+    border: 3px solid red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#barrav1 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#barrav1 li{
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#barrav1 li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#barrav1 li a:hover{
+    background-color: greenyellow;
+    border-bottom: solid red 2px;
+    color: blue;
+}
+/**/
+
+#barrav2 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 40px;
+    width: 200px;
+    background-color: black;
+}
+#barrav2 li a{
+    display: block;
+    color:  black;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+
+}
+#barrav2 li a:hover {
+    background-color: greenyellow;
+    border-bottom: solid red 2px;
+    color: blue;
+}
+li a{
+    background-color: white;
+    border-radius: 5px;
+    margin: 7px;
+    padding: 10px 40px;
+}
